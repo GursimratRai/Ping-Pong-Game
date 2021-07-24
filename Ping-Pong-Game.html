@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Ping Pong Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <!-- title of the game -->
+    <div id="header">PING PONG</div>
+
+    <!-- scoring count of each player -->
+    <div id="score-box">
+      <span>Player1: <span id="player1">0</span></span>
+      <span>Player2: <span id="player2">0</span></span>
+    </div>
+
+    <!-- playground -->
+    <div id="outer-box">
+      <!-- movable bar for player1 -->
+      <div id="rod1" class="rod">
+        <div id="inner-rod1" class="inner-rod">player1</div>
+      </div>
+
+      <!-- ball -->
+      <div id="ball"></div>
+
+      <!-- movable bar for player2 -->
+      <div id="rod2" class="rod">
+        <div id="inner-rod2" class="inner-rod">player2</div>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

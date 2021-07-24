@@ -1,0 +1,69 @@
+html {
+    background: linear-gradient( #ab3434 ,#844444);
+}
+
+/* title of the game */
+#header{
+    font-size:4rem;
+    font-family: cursive;
+    text-align:center;    
+}
+
+/* counter of scores for each player */
+#score-box{
+    width:80vw;
+    color:white;
+    padding:10px;
+    font-size:1.5rem;
+    font-family: monospace;
+    font-weight:bolder;
+    display:flex;
+    justify-content: space-around;
+}
+
+/* Playground  */
+#outer-box{
+    width:80vw;
+    height:70vh;
+    margin:auto;
+    position: relative;
+    overflow:hidden;
+    background-color:black;
+    border:2px solid black;
+}
+
+/* movable bars of each player */
+.rod{
+    width:15%;
+    position:relative;
+    left: 45%;
+    border-radius: 1.5rem;
+    background: radial-gradient(black,lightgrey);
+}
+
+.inner-rod{
+    width:60%;
+    margin:auto;
+    text-align:center; 
+    background-color:silver;
+}
+
+#rod1{
+   margin-top: 0.2rem;
+}
+
+#rod2{
+    position:absolute;
+    top:95.5%;  
+}
+
+/* ball  */
+#ball{
+    width:1em;
+    height:1rem;
+    position:relative;
+    top:40%;
+    left:50%;
+    border-radius: 50%;
+    background:radial-gradient(white,lightgrey);
+}
